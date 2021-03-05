@@ -6,7 +6,7 @@ import Main from '../layouts/Main';
 import Cell from '../components/Projects/Cell';
 import data from '../data/projects';
 
-const Project1 = () => (
+const Project4 = () => (
   <Main
     title="Projects"
     description="Learn about Michael D'Angelo's projects."
@@ -14,8 +14,8 @@ const Project1 = () => (
     <article className="post" id="projects">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/projects">Project 1</Link></h2>
-          <p>CrossOver Bar</p>
+          <h2 data-testid="heading"><Link to="/projects">Project 4</Link></h2>
+          <p>How?</p>
         </div>
       </header>
       {data.map((project) => (
@@ -28,4 +28,4 @@ const Project1 = () => (
   </Main>
 );
 
-export default Project1;
+export default Project4;

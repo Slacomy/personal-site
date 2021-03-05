@@ -34,7 +34,7 @@ I recommend keeping the project running as you go (with `npm start`) to help cor
 1. Modify all of the other files in the `src/data/` directory.
 1. You've finished modifying >95% of the pages. Search through the rest of the files for references to `Michael` or `Angelo` and change values to your name.
 1. Change or remove the favicon in `public/index.html`. [This](https://realfavicongenerator.net/) website may be helpful.
-
+a
 ### Deploy
 
 See deployment instructions [here](https://github.com/mldangelo/personal-site#deploying-to-github-pages). If you plan to use a custom url, modify `public/CNAME` and enter your URL. You can run:
