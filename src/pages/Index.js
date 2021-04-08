@@ -10,18 +10,16 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+          <h2 data-testid="heading"><Link to="/">About Me</Link></h2>
+          <p>I&apos;m a designer with a love for code, which melds together much better than
+            expected.<br />
+            I consider code and design to be different aspects to the same puzzle,
+            one that I love solving time and time again.
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+      <p> Welcome to my website. Please feel free to read <Link to="/about">my resume</Link>,
+        or you can check out my <Link to="/project1">projects</Link>, or <Link to="/contact">contact</Link> me.
       </p>
       <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
     </article>

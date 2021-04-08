@@ -4,7 +4,17 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
-import data from '../data/projects';
+
+const data = [
+  {
+    title: 'Playhouse Pilot',
+    subtitle: '',
+    link: '/project',
+    image: '/images/projects/nearestdollar.jpg',
+    date: '2010-10-20',
+    desc: '',
+  },
+];
 
 const Project3 = () => (
   <Main

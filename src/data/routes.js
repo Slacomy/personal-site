@@ -5,15 +5,19 @@ const routes = [
     path: '/',
   },
   {
-    label: 'Projects',
-    path: '/projects',
+    label: 'Resume',
+    path: '/about',
   },
   {
-    label: 'Project2',
+    label: 'CrossOver Bar',
+    path: '/project1',
+  },
+  {
+    label: 'PlayHouse Pilot',
     path: '/project2',
   },
   {
-    label: 'Project3',
+    label: 'Breakfast Breakout',
     path: '/project3',
   },
   {

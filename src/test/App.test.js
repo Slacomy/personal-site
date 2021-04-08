@@ -12,7 +12,7 @@ import About from '../pages/About';
 import Contact from '../pages/Contact';
 import Index from '../pages/Index';
 import NotFound from '../pages/NotFound';
-import Projects from '../pages/Projects';
+import Projects from '../pages/Project1';
 // import Project2 from '../pages/Project2';
 import Stats from '../pages/Stats';
 
@@ -28,7 +28,7 @@ const pages = [
     component: About,
   },
   {
-    route: '/projects',
+    route: '/project1',
     heading: 'Projects',
     component: Projects,
   },
