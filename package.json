@@ -1,8 +1,8 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://mldangelo.com/",
-  "license": "MIT",
+  "homepage": "/",
+  "license": "none",
   "repository": {
     "type": "git",
     "url": "https://github.com/mldangelo/personal-site.git"
