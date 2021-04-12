@@ -6,7 +6,7 @@ const routes = [
   },
   {
     label: 'Resume',
-    path: '/about',
+    path: '/resume/',
   },
   {
     label: 'CrossOver Bar',
@@ -29,8 +29,8 @@ const routes = [
     path: '/project5',
   },
   {
-    label: 'Stats',
-    path: '/stats',
+    label: 'About Me',
+    path: '/about',
   },
   {
     label: 'Contact',

@@ -9,7 +9,7 @@ const data = [
   {
     title: 'Playhouse Pilot',
     subtitle: '',
-    link: '/project',
+    link: '/project2',
     image: '/images/projects/Playhouse1.png',
     date: '2010-10-20',
     desc: '',
@@ -18,8 +18,8 @@ const data = [
 
 const Project2 = () => (
   <Main
-    title="Projects"
-    description="Learn about Michael D'Angelo's projects."
+    title="Playhouse Pilot"
+    description="Learn more about Sam Lacomy's Pilot 3D Game"
   >
     <article className="post" id="projects">
       <header>

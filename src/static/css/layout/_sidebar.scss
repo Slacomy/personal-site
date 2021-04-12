@@ -13,9 +13,9 @@
 		width: 22em;
 
 		> * {
-			border-top: solid 1px _palette(border);
-			margin: _size(section-spacing) 0 0 0;
-			padding: _size(section-spacing) 0 0 0;
+			border-top: solid 2px #a1c6ea;
+			margin: _size(section-spacing-small) 0 0 0;
+			padding: _size(section-spacing-small) 0 0 0;
 		}
 
 		> :first-child {

@@ -17,7 +17,7 @@ const Project2 = lazy(() => import('./pages/Project2'));
 const Project3 = lazy(() => import('./pages/Project3'));
 const Project4 = lazy(() => import('./pages/Project4'));
 const Project5 = lazy(() => import('./pages/Project5'));
-const Stats = lazy(() => import('./pages/Stats'));
+const Resume = lazy(() => import('./pages/Resume'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -25,13 +25,13 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
+        <Route path="/resume" component={Resume} />
         <Route path="/project1" component={Project1} />
-        <Route path="/stats" component={Stats} />
-        <Route path="/contact" component={Contact} />
         <Route path="/project2" component={Project2} />
         <Route path="/project3" component={Project3} />
         <Route path="/project4" component={Project4} />
         <Route path="/project5" component={Project5} />
+        <Route path="/contact" component={Contact} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>

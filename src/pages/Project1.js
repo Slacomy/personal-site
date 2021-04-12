@@ -18,8 +18,8 @@ const data = [
 
 const Project1 = () => (
   <Main
-    title="Projects"
-    description="Learn about Michael D'Angelo's projects."
+    title="CrossOver"
+    description="Learn more about the Animanga Bar."
   >
     <article className="post" id="projects">
       <header>

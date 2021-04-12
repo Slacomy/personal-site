@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <a href="https://samlacomydev.netlify.app/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/LogoGraphic.png`} alt="" />
       </a>
       <header>
         <h2>Sam Lacomy</h2>
@@ -32,7 +32,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Sam Lacomy <Link to="/">https://samlacomydev.netlify.app/</Link>.</p>
+      <p className="copyright"><Link to="/contact">&copy; Sam Lacomy </Link></p>
     </section>
   </section>
 );
