@@ -6,7 +6,7 @@ My ultimate dream is to be able to create something that inspires others the sam
 
 # Currently
 
-As a gradute of Wilkes University, I've gained the skills needed to work in the development and design of both web and video game platforms. I work in Unity and ReactJS on projects in both of those fields.
+As a graduate of Wilkes University, I've gained the skills needed to work in the development and design of both web and video game platforms. I work in Unity and ReactJS on projects in both of those fields.
 
 # The Lore
 
@@ -20,13 +20,10 @@ As a gradute of Wilkes University, I've gained the skills needed to work in the 
 - Musicals
 - Swimming
 - Music, especially Rock and Punk-Pop
-- Puzzle Games (Don't ask how many hours of sodoku I've played)
+- Puzzle Games (Don't ask how many hours of sudoku I've played)
 - Cooking
 - Cosplay/Costume Design
 
-# Fun facts
-
-- Temp spot
 
 # I want
 
@@ -35,6 +32,3 @@ As a gradute of Wilkes University, I've gained the skills needed to work in the 
 - freedom to create.
 - people to find inspiration through me.
 
-# People I admire
-
-- [Temporary](https://placeholder.com/)
