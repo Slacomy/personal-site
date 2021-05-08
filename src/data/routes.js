@@ -9,24 +9,30 @@ const routes = [
     path: '/resume/',
   },
   {
-    label: 'CrossOver Bar',
-    path: '/project1',
-  },
-  {
-    label: 'PlayHouse Pilot',
-    path: '/project2',
-  },
-  {
-    label: 'Breakfast Breakout',
-    path: '/project3',
-  },
-  {
-    label: 'Project4',
-    path: '/project4',
-  },
-  {
-    label: 'Project5',
-    path: '/project5',
+    label: 'Projects',
+    path: '#',
+    children: [
+      {
+        label: 'CrossOver Bar',
+        path: '/project1',
+      },
+      {
+        label: 'PlayHouse Pilot',
+        path: '/project2',
+      },
+      {
+        label: 'Breakfast Breakout',
+        path: '/project3',
+      },
+      {
+        label: 'Project4',
+        path: '/project4',
+      },
+      {
+        label: 'Project5',
+        path: '/project5',
+      },
+    ]
   },
   {
     label: 'About Me',
