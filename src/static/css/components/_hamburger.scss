@@ -5,7 +5,7 @@
 }
 
 .menu-hover {
- padding: 0 1em;
+  padding: 0 1em;
 }
 
 .menu-hover:hover {
@@ -14,12 +14,49 @@
 
 .hamburger-ul {
   display: block;
+  background: #fff;
+  position: fixed;
+  top: 44px;
+  bottom: 0;
+  right: -300px;
+  width: 100%;
+  max-width: 300px;
+  padding: 20px !important;
+  transition: 250ms all ease-in-out;
+  &.mobile-menu-open {
+    right: 0;
+  }
 
-  li a h3 {
-    border: 0;
-    border-top: dotted 1px rgba(160, 160, 160, 0.3);
-    margin: 1.5em 0 0 0;
-    padding: 1.5em 0 0 0;
+  li {
+    a h3 {
+      border: 0;
+      border-top: dotted 1px rgba(160, 160, 160, 0.3);
+      margin: 0;
+      padding: 1.5em 0;
+      display: inline-block;
+    }
+    &:first-of-type {
+      a h3 {
+        padding-top: 0;
+        margin-top: 0;
+      }
+    }
+    .sub-menu-arrow {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 0.8rem;
+    }
+    .sub-menu {
+      display: none;
+      background: #ececec;
+      padding: 10px !important;
+      &.sub-menu-active {
+        display: block;
+      }
+      li a {
+        font-size: 0.9rem;
+      }
+    }
   }
 
   li a h3:hover {
