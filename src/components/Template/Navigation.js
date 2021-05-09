@@ -6,16 +6,14 @@ import routes from '../../data/routes';
 
 // Websites Navbar, displays routes defined in 'src/data/routes'
 const Navigation = () => {
-
-  const [ submenu, setSubmenu ] = useState("")
-
+  const [submenu, setSubmenu] = useState('');
   const handleSubMenu = (label) => {
     // If submenu active, hide submenu
     // Else, show submenu for selected item
     label === submenu
-      ? setSubmenu("")
-      : setSubmenu(label)
-  }
+      ? setSubmenu('')
+      : setSubmenu(label);
+  };
 
   return (
     <header id="header">
@@ -31,27 +29,27 @@ const Navigation = () => {
               l.children ? (
                 <li key={l.label} onClick={() => handleSubMenu(l.label)}>
                   <Link to={l.path}>{l.label}</Link>
-                    <>
-                      <span className="sub-menu-arrow">v</span>
-                      <ul className={`sub-menu ${submenu === l.label ? 'sub-menu-active' : ''}`}>
-                        {l.children.map(child => (
-                          <li><a href={child.path} title={child.label}>{child.label}</a></li>
-                        ))}
-                      </ul>
-                    </>
+                  <>
+                    <span className="sub-menu-arrow">v</span>
+                    <ul className={`sub-menu ${submenu === l.label ? 'sub-menu-active' : ''}`}>
+                      {l.children.map(child => (
+                        <li><a href={child.path} title={child.label}>{child.label}</a></li>
+                      ))}
+                    </ul>
+                  </>
                 </li>
               ) : (
                 <li key={l.label}>
                   <Link to={l.path}>{l.label}</Link>
                 </li>
               )
-            )})
-          } 
+            );
+          })}
         </ul>
       </nav>
       <Hamburger />
     </header>
-  )
+  );
 };
 
 export default Navigation;

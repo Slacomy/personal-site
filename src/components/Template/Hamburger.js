@@ -5,15 +5,15 @@ import routes from '../../data/routes';
 
 const Hamburger = () => {
   const [open, setOpen] = useState(false);
-  const [ submenu, setSubmenu ] = useState("")
+  const [submenu, setSubmenu] = useState('');
 
   const handleSubMenu = (label) => {
     // If submenu active, hide submenu
     // Else, show submenu for selected item
     label === submenu
-      ? setSubmenu("")
-      : setSubmenu(label)
-  }
+      ? setSubmenu('')
+      : setSubmenu(label);
+  };
 
   return (
     <div className="hamburger-container">

@@ -32,7 +32,7 @@ const routes = [
         label: 'Project5',
         path: '/project5',
       },
-    ]
+    ],
   },
   {
     label: 'About Me',
