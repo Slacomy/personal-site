@@ -10,9 +10,11 @@ const Hamburger = () => {
   const handleSubMenu = (label) => {
     // If submenu active, hide submenu
     // Else, show submenu for selected item
-    label === submenu
-      ? setSubmenu('')
-      : setSubmenu(label);
+    if (label === submenu) {
+      setSubmenu('');
+    } else {
+      setSubmenu(label);
+    }
   };
 
   return (
@@ -33,12 +35,12 @@ const Hamburger = () => {
       <ul className={`hamburger-ul ${open ? 'mobile-menu-open' : ''}`}>
         {routes.map((l) => (
           l.children ? (
-            <li key={l.label} onClick={() => handleSubMenu(l.label)}>
-              <Link to={l.path}>
+            <li key={l.label}>
+              <Link to={l.path} onClick={() => handleSubMenu(l.label)}>
                 <h3 className={l.index && 'index-li'}>{l.label}</h3>
                 <span className="sub-menu-arrow">v</span>
                 <ul className={`sub-menu ${submenu === l.label ? 'sub-menu-active' : ''}`}>
-                  {l.children.map(child => (
+                  {l.children.map((child) => (
                     <li><a href={child.path} title={child.label}>{child.label}</a></li>
                   ))}
                 </ul>

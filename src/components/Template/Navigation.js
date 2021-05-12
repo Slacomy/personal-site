@@ -10,9 +10,11 @@ const Navigation = () => {
   const handleSubMenu = (label) => {
     // If submenu active, hide submenu
     // Else, show submenu for selected item
-    label === submenu
-      ? setSubmenu('')
-      : setSubmenu(label);
+    if (label === submenu) {
+      setSubmenu('');
+    } else {
+      setSubmenu(label);
+    }
   };
 
   return (
@@ -24,27 +26,25 @@ const Navigation = () => {
       </h1>
       <nav className="links">
         <ul>
-          {routes.filter((l) => !l.index).map((l) => {
-            return (
-              l.children ? (
-                <li key={l.label} onClick={() => handleSubMenu(l.label)}>
-                  <Link to={l.path}>{l.label}</Link>
-                  <>
-                    <span className="sub-menu-arrow">v</span>
-                    <ul className={`sub-menu ${submenu === l.label ? 'sub-menu-active' : ''}`}>
-                      {l.children.map(child => (
-                        <li><a href={child.path} title={child.label}>{child.label}</a></li>
-                      ))}
-                    </ul>
-                  </>
-                </li>
-              ) : (
-                <li key={l.label}>
-                  <Link to={l.path}>{l.label}</Link>
-                </li>
-              )
-            );
-          })}
+          {routes.filter((l) => !l.index).map((l) => (
+            l.children ? (
+              <li key={l.label}>
+                <Link to={l.path} onClick={() => handleSubMenu(l.label)}>{l.label}</Link>
+                <>
+                  <span className="sub-menu-arrow">v</span>
+                  <ul className={`sub-menu ${(submenu === l.label) ? 'sub-menu-active' : ''}`}>
+                    {l.children.map((child) => (
+                      <li><a href={child.path} title={child.label}>{child.label}</a></li>
+                    ))}
+                  </ul>
+                </>
+              </li>
+            ) : (
+              <li key={l.label}>
+                <Link to={l.path}>{l.label}</Link>
+              </li>
+            )
+          ))}
         </ul>
       </nav>
       <Hamburger />
