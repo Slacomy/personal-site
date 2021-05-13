@@ -8,7 +8,7 @@ const { PUBLIC_URL } = process.env; // set automatically from package.json:homep
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
-      <a href="https://samlacomydev.netlify.app/" className="logo">
+      <a href="https://www.samlacomydev.com/" className="logo">
         <img src={`${PUBLIC_URL}/images/LogoGraphic.png`} alt="" />
       </a>
       <header>
