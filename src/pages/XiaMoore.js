@@ -25,7 +25,18 @@ const Project2 = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/XiaMoore">Xia Moore Cosplay</Link></h2>
-          <p>desc of Xia Moore</p>
+          <p>
+            <b>Concept:</b><br />
+            A brand for my cosplay, using a pseudonym. This includes both
+            items to advertise myself on social media and in person,
+            as well as working as a vendor to sell cosplay components to others.
+            <br />
+            <b>Hardware/Software:</b><br />
+            The logo was created in Clip Studio Paint, later brought into
+            Illustrator to vectorize. The mockups used both Photoshop and
+            Illustrator to get the clearest image. The business cards were
+            made with Illustrator.
+          </p>
         </div>
       </header>
       {data.map((project) => (

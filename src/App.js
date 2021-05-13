@@ -20,7 +20,9 @@ const XiaMoore = lazy(() => import('./pages/XiaMoore'));
 const OneChoice = lazy(() => import('./pages/OneChoice'));
 const Revival = lazy(() => import('./pages/Revival'));
 const SkeletonHunter = lazy(() => import('./pages/SkeletonHunter'));
+const Storybook = lazy(() => import('./pages/Storybook'));
 const Resume = lazy(() => import('./pages/Resume'));
+const DemoReel = lazy(() => import('./pages/DemoReel'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -37,7 +39,9 @@ const App = () => (
         <Route path="/OneChoice" component={OneChoice} />
         <Route path="/Revival" component={Revival} />
         <Route path="/SkeletonHunter" component={SkeletonHunter} />
+        <Route path="/Storybook" component={Storybook} />
         <Route path="/contact" component={Contact} />
+        <Route path="/DemoReel" component={DemoReel} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>

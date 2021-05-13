@@ -25,7 +25,14 @@ const SideBar = () => (
       </p>
       <ul className="actions">
         <li>
-          <Link to="/about" className="button">Resume</Link>
+          <Link to="/resume" className="button">Resume</Link>
+        </li>
+        <li>
+          <Link to="/DemoReel" className="button">Demo Reel</Link>
+        </li>
+        <br />
+        <li>
+          <Link to="/https://indd.adobe.com/view/3c3a94ce-5e54-49fd-981a-06fdb6325b82" className="button">Portfolio</Link>
         </li>
       </ul>
     </section>

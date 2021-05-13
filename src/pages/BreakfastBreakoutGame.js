@@ -26,10 +26,16 @@ const Project3 = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/BreakfastBreakout">Breakfast Breakout</Link></h2>
           <p>
-            A simple 2D Platformer game, where you play as a peice of toast
-            who is determined to not be anyone&apos;s breakfast!
+            <b>Concept:</b><br />
+            A 2D platformer game where you play as a peice of toast who refuses
+            to become breakfast! &nbsp; Break out of the house, get through the
+            yard, and escape through the park to get freedom!
             <br />
-            This was made in Unity, with art assets from my peer Hayley Rakowski<br />
+            <b>Hardware/Software:</b><br />
+            A Unity-built 2D platformer created to show movement systems, health functions,
+            simple enemy AI, collection mechanics, and animations.
+            <br />
+            <i>Art assets created by peer Hayley Rakowski.</i>
           </p>
         </div>
       </header>

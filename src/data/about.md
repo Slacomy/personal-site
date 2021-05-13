@@ -1,9 +1,13 @@
 
 # Intro
 
-I’ve loved video games ever since I was 8, sitting near my dad and watching him play Everquest and Ultima. From there, I started to play those games too, and then found my own games that meant as much to me that I was able to introduce him to. With playing video games comes wanting to understand them, and with understanding them comes wanting to create them!
+<img src="/images/professional.jpg" alt="test" width="25%" style="float:right; padding-left:25px" />
+
+I’ve loved video games ever since I was 8, sitting near my dad and watching him play Everquest and Ultima. From there, I started to play those games with him, and over time found my own games that I was able to introduce him to. With playing video games comes wanting to understand them, and with understanding them comes wanting to create them!
+<br />
 
 My ultimate dream is to be able to create something that inspires others the same way I've been inspired.
+
 
 
 # Currently

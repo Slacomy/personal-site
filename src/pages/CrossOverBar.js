@@ -26,10 +26,16 @@ const Project1 = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/CrossOverBar">CrossOver Bar</Link></h2>
           <p>
-            CrossOver is an anime and video game themed bar,
-            with events and drinks tailored for fans of such content.
+            <b>Concept:</b><br />
+            An concept for an anime and video game themed bar. The bar would have
+            weekly events, Included is a HTML website, a set of menus, a pair of
+            glass mockups, a takeout bag, and merchandise examples.
             <br />
-            The main aspect of this project is the website, coded in HTML and CSS.<br />
+            <b>Hardware/Software:</b><br />
+            First created in Adobe XD, I then recreated it in HTML and CSS
+            using Virtual Studio Code. The logos were created in Illustrator
+            and Clip Studio Paint. The menus were created with Indesign. Mockups
+            used Photoshop and Illustrator, and the charm was modeled in Cinema4D.
           </p>
         </div>
       </header>

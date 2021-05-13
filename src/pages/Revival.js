@@ -25,7 +25,16 @@ const Project2 = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Revival</Link></h2>
-          <p>Desc of Revival</p>
+          <p>
+            <b>Concept:</b><br />
+            A goth fashion magazine, with set brand assets as well as
+            monthly changing aspects.
+            <br />
+            <b>Hardware/Software:</b><br />
+            Originally created in Clip Studio Paint, the cover and
+            feature spread were both later redone through collage. The contents
+            page and content page were both created in Indesign.
+          </p>
         </div>
       </header>
       {data.map((project) => (

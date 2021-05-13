@@ -25,7 +25,17 @@ const Project2 = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/FEED">FEED Nonprofit</Link></h2>
-          <p>Desc of FEED</p>
+          <p>
+            <b>Concept:</b><br />
+            A nonprofit dedicated to reducing food waste from resturants.
+            This works by having resturants prepare their excess food
+            for pickup by volenteers, who transport it to soup kitchens.
+            This includes a simple animation and ads for instagram.
+            <br />
+            <b>Hardware/Software:</b><br />
+            The assets were all created in Illustrator, and then
+            animated in After Effects. The mockup was done through Photoshop.
+          </p>
         </div>
       </header>
       {data.map((project) => (

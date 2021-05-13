@@ -10,7 +10,7 @@ const data = [
     title: 'Skeleton Hunter',
     subtitle: '',
     link: '/SkeletonHunter',
-    image: '/images/projects/Playhouse1.png',
+    image: '/images/projects/Skeleton/Menu.png',
     date: '2010-10-20',
     desc: '',
   },
@@ -25,7 +25,16 @@ const Project2 = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Skeleton Hunter</Link></h2>
-          <p>Desc of Skeleton Hunter</p>
+          <p>
+            <b>Concept:</b><br />
+            A fantasy style game where you are a fire-weilding mage
+            who must save a village from attacking skeletons.
+            Included is also a 3D animated trailer.<br />
+            <b>Hardware/Software:</b><br />
+            A Unity-built 3D game involving health mechanics, enemy AI,
+            instantiated objects, interactive NPCs, and location
+            based level progression. The trailer was created in Cinema 4D.
+          </p>
         </div>
       </header>
       <a href="/PlayHousePilot">
@@ -36,8 +45,8 @@ const Project2 = () => (
           />
         ))}
       </a>
-      <img src="/images/projects/Playhouse2.png" alt="test" width="416px" /> &nbsp;  &nbsp;
-      <img src="/images/projects/Playhouse3.png" alt="test" width="416px" paddingLeft="10px" />
+      <img src="/images/projects/Skeleton/lvl1.png" alt="test" width="48%" /> &nbsp;  &nbsp;
+      <img src="/images/projects/Skeleton/lvl2.png" alt="test" width="48%" />
     </article>
   </Main>
 );

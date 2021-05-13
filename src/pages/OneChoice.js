@@ -25,7 +25,18 @@ const Project2 = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/OneChoice">One Truth, One Lie, One Chance</Link></h2>
-          <p>desc of One Truth, One Lie, One Chance</p>
+          <p>
+            <b>Concept:</b><br />
+            A visual novel with dating simulator undertones, One Truth, One Lie, One
+            Chance was created to show off coding skills, an understanding of
+            decision structures, and working with a partner.<br />
+            <b>Hardware/Software:</b><br />
+            The game was created using RenPy, which uses an adapted version
+            of Python to code. I had to work with a partner to write the story,
+            decide on what assets were needed, and impliment them.
+            <br />
+            <i>Art assets created by peer Hayley Rakowski.</i>
+          </p>
         </div>
       </header>
       <a href="/OneTruthOneLieOneChoice">

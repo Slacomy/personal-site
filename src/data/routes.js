@@ -50,6 +50,10 @@ const routes = [
         label: 'Revival',
         path: '/Revival',
       },
+      {
+        label: 'Storybook',
+        path: '/Storybook',
+      },
     ],
   },
   {

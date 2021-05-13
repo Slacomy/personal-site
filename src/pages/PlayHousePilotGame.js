@@ -25,7 +25,16 @@ const Project2 = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/PlayHousePilotGame">PlayHouse Pilot</Link></h2>
-          <p>desc of Playhouse Pilot</p>
+          <p>
+            <b>Concept:</b><br />
+            This game is a cute flight-based game, where you fly
+            through children’s toys to collect rings, and avoid
+            hitting the toys. It’s given the aesthetic of an old
+            TV to further the ‘old kids toys’ idea.<br />
+            <b>Hardware/Software:</b><br />
+            A Unity-built 3D game involving flight controls, item collection,
+            loss conditions, world boundaries, and post processing effects.
+          </p>
         </div>
       </header>
       <a href="/PlayHousePilot">
