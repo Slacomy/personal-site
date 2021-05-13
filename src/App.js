@@ -12,11 +12,14 @@ const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
-const Project1 = lazy(() => import('./pages/Project1'));
-const Project2 = lazy(() => import('./pages/Project2'));
-const Project3 = lazy(() => import('./pages/Project3'));
-const Project4 = lazy(() => import('./pages/Project4'));
-const Project5 = lazy(() => import('./pages/Project5'));
+const CrossOverBar = lazy(() => import('./pages/CrossOverBar'));
+const PlayHousePilotGame = lazy(() => import('./pages/PlayHousePilotGame'));
+const BreakfastBreakoutGame = lazy(() => import('./pages/BreakfastBreakoutGame'));
+const Feed = lazy(() => import('./pages/Feed'));
+const XiaMoore = lazy(() => import('./pages/XiaMoore'));
+const OneChoice = lazy(() => import('./pages/OneChoice'));
+const Revival = lazy(() => import('./pages/Revival'));
+const SkeletonHunter = lazy(() => import('./pages/SkeletonHunter'));
 const Resume = lazy(() => import('./pages/Resume'));
 
 const App = () => (
@@ -26,11 +29,14 @@ const App = () => (
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
-        <Route path="/project1" component={Project1} />
-        <Route path="/project2" component={Project2} />
-        <Route path="/project3" component={Project3} />
-        <Route path="/project4" component={Project4} />
-        <Route path="/project5" component={Project5} />
+        <Route path="/CrossOverBar" component={CrossOverBar} />
+        <Route path="/PlayHousePilotGame" component={PlayHousePilotGame} />
+        <Route path="/BreakfastBreakoutGame" component={BreakfastBreakoutGame} />
+        <Route path="/Feed" component={Feed} />
+        <Route path="/XiaMoore" component={XiaMoore} />
+        <Route path="/OneChoice" component={OneChoice} />
+        <Route path="/Revival" component={Revival} />
+        <Route path="/SkeletonHunter" component={SkeletonHunter} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} status={404} />
       </Switch>

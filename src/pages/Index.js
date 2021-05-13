@@ -19,7 +19,7 @@ const Index = () => (
         </div>
       </header>
       <p> Welcome to my website. Please feel free to read <Link to="/resume">my resume</Link>,
-        check out my <Link to="/project1">projects</Link>, or <Link to="/contact">contact</Link> me.
+        check out my projects, or <Link to="/contact">contact</Link> me.
       </p>
       <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
     </article>

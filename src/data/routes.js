@@ -9,28 +9,46 @@ const routes = [
     path: '/resume/',
   },
   {
+    label: 'Games',
+    path: '#',
+    children: [
+      {
+        label: 'Breakfast Breakout',
+        path: '/BreakfastBreakoutGame',
+      },
+      {
+        label: 'PlayHouse Pilot',
+        path: '/PlayHousePilotGame',
+      },
+      {
+        label: 'Skeleton Hunter',
+        path: '/SkeletonHunter',
+      },
+      {
+        label: 'Visual Novel',
+        path: '/OneChoice',
+      },
+    ],
+  },
+  {
     label: 'Projects',
     path: '#',
     children: [
       {
         label: 'CrossOver Bar',
-        path: '/project1',
+        path: '/CrossOverBar',
       },
       {
-        label: 'PlayHouse Pilot',
-        path: '/project2',
+        label: 'Xia Moore Cosplay',
+        path: '/XiaMoore',
       },
       {
-        label: 'Breakfast Breakout',
-        path: '/project3',
+        label: 'FEED nonprofit',
+        path: '/Feed',
       },
       {
-        label: 'Project4',
-        path: '/project4',
-      },
-      {
-        label: 'Project5',
-        path: '/project5',
+        label: 'Revival',
+        path: '/Revival',
       },
     ],
   },
