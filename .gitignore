@@ -1,4 +1,4 @@
-# prefer npm over yarn 
+# prefer npm over yarn
 yarn.lock
 
 # eslint
@@ -40,7 +40,7 @@ node_modules
 public/dist/
 dist/
 tmp/
-build/
+# build/
 
 # OSX
 .DS_Store

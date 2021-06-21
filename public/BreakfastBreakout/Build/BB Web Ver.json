@@ -1,0 +1,16 @@
+{
+"companyName": "SamLacomyDev",
+"productName": "BreakfastBreakout",
+"productVersion": "1.5",
+"dataUrl": "BB Web Ver.data.unityweb",
+"wasmCodeUrl": "BB Web Ver.wasm.code.unityweb",
+"wasmFrameworkUrl": "BB Web Ver.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.22f1"
+}
